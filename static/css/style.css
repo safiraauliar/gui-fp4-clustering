@@ -15,7 +15,7 @@
 
 #prediction {
 	font-family: 'Montserrat', sans-serif;
-    background-image: url('/static/img/4092.jpg');
+    background-image: url("{{ url_for('static', filename='img/4092.jpg') }}");
 	background-size: cover;
 	background-position: center;
 }
