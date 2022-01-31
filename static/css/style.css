@@ -1,8 +1,5 @@
 
-body{
-    background-image: url("https://image.freepik.com/free-vector/sun-moon-disks-clear-clouds-with-rain-snow-icons_1441-2856.jpg");
-	
-}
+
 .section {
 	position: relative;
 	height: 120vh;
@@ -19,6 +16,7 @@ body{
 
 #prediction {
 	font-family: 'Montserrat', sans-serif;
+	background-image: url("https://image.freepik.com/free-vector/sun-moon-disks-clear-clouds-with-rain-snow-icons_1441-2856.jpg");
 	background-size: cover;
 	background-position: center;
 }
