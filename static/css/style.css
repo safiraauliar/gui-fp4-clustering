@@ -16,7 +16,7 @@
 
 #prediction {
 	font-family: 'Montserrat', sans-serif;
-	background-image: url("https://image.freepik.com/free-vector/sun-moon-disks-clear-clouds-with-rain-snow-icons_1441-2856.jpg");
+	background-image: url("https://image.freepik.com/free-vector/heart-disease-risk-concept-medical-examination-heart-with-high-cholesterol-blood-pressure-cardiovascular-system-problems_74855-10830.jpg?w=740");
 	background-size: cover;
 	background-position: center;
 }
@@ -46,12 +46,12 @@
 	font-size: 30px;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #ffc001;
+	color: #f14747;
 	margin: 0px;
 }
 
 .predict-form>form {
-	background-color: #101113;
+	background-color: #273a61;
 	padding: 30px 20px;
 	border-radius: 3px;
 }
@@ -123,7 +123,7 @@
 
 .predict-form .submit-btn {
 	color: #101113;
-	background-color: #ffc001;
+	background-color: #d81d1d;
 	font-weight: 700;
 	height: 50px;
 	border: none;

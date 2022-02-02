@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-	<title>Weather Prediction</title>
+	<title>Heart Failure Prediction</title>
 
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
@@ -29,76 +29,70 @@
 				<div class="row">
 					<div class="predict-form">
 						<div class="form-header">
-							<h1>Weather Prediction</h1>
+							<h1>Heart Failure Prediction</h1>
 						</div>
 						<form action="{{url_for('predict')}}" method="post">
 							<div class="row">
 								<div class="col-sm-6">
 									<div class="form-group">
-										<span class="form-label">Sunshine</span>
-										<input class="form-control" name="Sunshine" type="text" placeholder="Enter Sunshine Value">
+										<span class="form-label">Age</span>
+										<input class="form-control" name="age" type="text" placeholder="Enter Age of Patient">
 									</div>
 								</div>
 								<div class="col-sm-6">
 									<div class="form-group">
-										<span class="form-label">WindGustSpeed</span>
-										<input class="form-control" name="WindGustSpeed" type="text" placeholder="Enter WindGustSpeed Value">
+										<span class="form-label">Anaemia Status</span>
+										<input class="form-control" name="anaemia" type="text" placeholder="Enter Status (0 : No, 1:Yes)">
 									</div>
 								</div>
 							</div>
                             <div class="row">
 								<div class="col-sm-6">
 									<div class="form-group">
-										<span class="form-label">Humidity9am</span>
-										<input class="form-control" name="Humidity9am" type="text" placeholder="Enter Humidity9am Value">
+										<span class="form-label">Creatinine Phosphokinase</span>
+										<input class="form-control" name="creatinine_phosphokinase" type="text" placeholder="Enter Creatinine Phosphokinase ">
 									</div>
 								</div>
 								<div class="col-sm-6">
 									<div class="form-group">
-										<span class="form-label">Humidity3pm</span>
-										<input class="form-control" name="Humidity3pm" type="text" placeholder="Enter Humidity3pm Value">
+										<span class="form-label">Ejection Fraction</span>
+										<input class="form-control" name="ejection_fraction" type="text" placeholder="Enter Ejection Fraction Value">
 									</div>
 								</div>
 							</div>
                             <div class="row">
 								<div class="col-sm-6">
 									<div class="form-group">
-										<span class="form-label">Pressure9am</span>
-										<input class="form-control" name="Pressure9am" type="text" placeholder="Enter Pressure9am Value">
+										<span class="form-label">High Blood Pressure Status</span>
+										<input class="form-control" name="high_blood_pressure" type="text" placeholder="Enter Status (0:No, 1:Yes)">
 									</div>
 								</div>
 								<div class="col-sm-6">
 									<div class="form-group">
-										<span class="form-label">Pressure3pm</span>
-										<input class="form-control" name="Pressure3pm" type="text" placeholder="Enter Pressure3pm Value">
+										<span class="form-label">Platelets</span>
+										<input class="form-control" name="platelets" type="text" placeholder="Enter Platelets Value">
 									</div>
 								</div>
 							</div>
                             <div class="row">
 								<div class="col-sm-6">
 									<div class="form-group">
-										<span class="form-label">Cloud9am</span>
-										<input class="form-control" name="Cloud9am" type="text" placeholder="Enter Cloud9am Value">
+										<span class="form-label">Serum Creatinine</span>
+										<input class="form-control" name="serum_creatinine" type="text" placeholder="Enter Serum Creatinine Value">
 									</div>
 								</div>
-                                <div class="col-sm-6">
+								<div class="col-sm-6">
 									<div class="form-group">
-										<span class="form-label">Cloud3pm</span>
-										<input class="form-control" name="Cloud3pm" type="text" placeholder="Enter Cloud3pm Value">
+										<span class="form-label">Serum Sodium</span>
+										<input class="form-control" name="serum_sodium" type="text" placeholder="Enter Serum Sodium Value">
 									</div>
 								</div>
                             </div>
                             <div class="row">
 								<div class="col-sm-6">
 									<div class="form-group">
-										<span class="form-label">Temp3pm</span>
-										<input class="form-control" name="Temp3pm" type="text" placeholder="Enter Temp3pm Value">
-									</div>
-								</div>
-                                <div class="col-sm-6">
-									<div class="form-group">
-										<span class="form-label">RainToday</span>
-										<input class="form-control" name="RainToday" type="text" placeholder="Enter RainToday Value">
+										<span class="form-label">Follow-up time (in days)</span>
+										<input class="form-control" name="time" type="text" placeholder="Enter Follow-up time (in days)">
 									</div>
 								</div>
                             </div>
