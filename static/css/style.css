@@ -2,7 +2,7 @@
 
 .section {
 	position: relative;
-	height: 120vh;
+	height: 180vh;
 }
 
 .section .section-center {
@@ -16,7 +16,7 @@
 
 #prediction {
 	font-family: 'Montserrat', sans-serif;
-	background-image: url("https://image.freepik.com/free-vector/heart-disease-risk-concept-medical-examination-heart-with-high-cholesterol-blood-pressure-cardiovascular-system-problems_74855-10830.jpg?w=740");
+	background-image: url("https://img.freepik.com/free-vector/customer-managers-working-with-customers-pie-charts-devices-customer-segmentation-internet-marketing-tool-target-audience-collection-concept-pinkish-coral-bluevector-isolated-illustration_335657-2277.jpg?w=740");
 	background-size: cover;
 	background-position: center;
 }
@@ -43,7 +43,7 @@
 }
 
 .predict-form .form-header h1 {
-	font-size: 30px;
+	font-size: 40px;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #f14747;
@@ -136,7 +136,8 @@
 	color: #101113;
 	background-color: #56b8df;
 	font-weight: 700;
-	height: 50px;
+	font-size: small;
+	height: 100px;
 	width: 100%;
 	display: block;
     margin-top: 10px;
